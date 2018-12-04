@@ -80,7 +80,7 @@ public class OpenWeatherMapClient {
 
 			summary.setUviDate(ultravioletIndex.getDate());
 			summary.setUviDateISO(ultravioletIndex.getDateIso());
-			//summary.setUviValue(ultravioletIndex.getValue());
+			//summary.setUviValue(ultravioletIndex.getValue());;;
 			summary.setUviValue(20);
 		} catch (Exception e) {
 			LOGGER.error("Failed to get the ultraviolet index data from OpenWeatherMap with " + lat + ":" + lon, e);
